@@ -107,5 +107,7 @@ lib/generated_plugin_registrant.dart
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 
+#window
+!**/window/**/
 # End of https://www.toptal.com/developers/gitignore/api/android,flutter
 1
