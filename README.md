@@ -13,3 +13,7 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 <img src = "https://i.imgur.com/oAQFH3h.png"/>
+
+### Note
+- Stateless -> Input Data -> Widget -> Renders UI -> Re-render when input Data Changes
+- StateFul -> Input Data -> Widget -> Renders UI -> Internal State
