@@ -38,3 +38,23 @@ samples, guidance on mobile development, and a full API reference.
   ```
   - Làm tròn số
   - `toStringAsFixed(2)}',`
+  - title
+  ```dart
+  textTheme: ThemeData.light().textTheme.copyWith(
+                  title: TextStyle(
+                    fontFamily: 'OpenSans',
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+===========================>
+        return MaterialApp(
+  title: 'MyApp',
+  theme: Theme.of(context).copyWith(
+    textTheme: ThemeData.light().textTheme.copyWith(
+      titleSmall: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontFamily: 'OpenSans',
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+       titleLarge: Theme.of(context).textTheme.titleLarge?.copyWith(...),
+       titleMedium: Theme.of(context).textTheme.titleLarge?.copyWith(...),
+```
