@@ -18,3 +18,5 @@ samples, guidance on mobile development, and a full API reference.
 ### Note
 - Fix `◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤`
 - Ta sử dụng Wrapper SingleChildScrollView
+- ListView(children: [])
+- ListView.builder() chỉ load những cái nó hiện (visible)
