@@ -20,3 +20,21 @@ samples, guidance on mobile development, and a full API reference.
 - Ta sử dụng Wrapper SingleChildScrollView
 - ListView(children: [])
 - ListView.builder() chỉ load những cái nó hiện (visible)
+
+-  keyboardType: TextInputType.number, -> chuyển thành bàn phím số
+
+- SubmitButton
+```dart
+  void submitData() {
+       addTx(
+            titleController.text,
+            double.parse(amountController.text),
+            );
+    }
+
+    onSubmitted: (_) => submitData,
+    onPressed: submitData,
+
+  ```
+  - Làm tròn số
+  - `toStringAsFixed(2)}',`
